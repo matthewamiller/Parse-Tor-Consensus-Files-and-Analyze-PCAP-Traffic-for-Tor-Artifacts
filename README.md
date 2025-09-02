@@ -16,7 +16,8 @@ This repository provides Python utilities for detecting Tor network activity in 
 - Summarizes results with per-IP statistics, including total hits and **first/last seen timestamps**.
 
 ## Why It Matters
-CryptoCat said so.
+
+'''CryptoCat said so.'''
 
 ## Features
 - Lightweight (requires only Python and `scapy`).
