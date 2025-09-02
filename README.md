@@ -32,7 +32,7 @@ git clone https://github.com/matthewamiller/Parse-Tor-consensus-files-and-analyz
 cd tor-pcap-tools
 
 # Install dependencies
-pip install scapy
+sudo apt install python3-scapy
 ```
 
 ## Usage
