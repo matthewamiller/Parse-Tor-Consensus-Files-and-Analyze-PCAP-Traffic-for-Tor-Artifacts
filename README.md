@@ -16,8 +16,7 @@ This repository provides Python utilities for detecting Tor network activity in 
 - Summarizes results with per-IP statistics, including total hits and **first/last seen timestamps**.
 
 ## Why It Matters
-
-'''CryptoCat said so.'''
+CryptoCat said so.
 
 ## Features
 - Lightweight (requires only Python and `scapy`).
@@ -39,7 +38,9 @@ pip install scapy
 ## Usage
 
 ### Download Tor Consensus Files
+```
 curl -s "https://collector.torproject.org/recent/relay-descriptors/consensuses/$LATEST" -o consensus.txt
+```
 
 ### Parse Consensus
 ```bash
