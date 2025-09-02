@@ -16,10 +16,7 @@ This repository provides Python utilities for detecting Tor network activity in 
 - Summarizes results with per-IP statistics, including total hits and **first/last seen timestamps**.
 
 ## Why It Matters
-Tor anonymizes Internet traffic, which can indicate:
-- **Incident Response:** Policy violations, malware C2, or data exfiltration.
-- **Law Enforcement:** Evidence of concealment, timeline reconstruction.
-- **Network Research:** Measuring Tor presence in monitored environments.
+CryptoCat said so.
 
 ## Features
 - Lightweight (requires only Python and `scapy`).
