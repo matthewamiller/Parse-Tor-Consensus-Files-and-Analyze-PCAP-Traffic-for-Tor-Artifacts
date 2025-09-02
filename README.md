@@ -29,7 +29,6 @@ CryptoCat said so.
 ```bash
 # Clone repository
 git clone https://github.com/matthewamiller/Parse-Tor-consensus-files-and-analyze-PCAP-traffic-for-Tor-connections.git
-cd tor-pcap-tools
 
 # Install dependencies
 sudo apt install python3-scapy
@@ -39,7 +38,11 @@ sudo apt install python3-scapy
 
 ### Download Tor Consensus Files
 ```
+LATEST=$(curl -s https://collector.torproject.org/recent/relay-descriptors/consensuses/ \
+ | grep -oE 'href="[^"]+-consensus"' | tail -n1 | cut -d'"' -f2)
+
 curl -s "https://collector.torproject.org/recent/relay-descriptors/consensuses/$LATEST" -o consensus.txt
+
 ```
 
 ### Parse Consensus
