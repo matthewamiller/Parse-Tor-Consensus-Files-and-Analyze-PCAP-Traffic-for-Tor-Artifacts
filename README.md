@@ -54,6 +54,10 @@ python3 consensus_to_ips.py consensus.txt -o tor_relays.txt
 ```bash
 python3 tor_pcap_scan.py capture.pcap tor_relays.txt 
 ```
+### Output Results to .txt File
+```
+python3 tor_pcap_scan.py capture.pcap tor_relays.txt > filenameofchoice.txt
+```
 
 ### Sample Output
 ```
